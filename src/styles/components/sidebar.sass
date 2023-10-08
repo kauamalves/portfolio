@@ -1,0 +1,27 @@
+@use '../variables'
+@use '../mixins'
+
+#sidebar
+    display: flex
+    flex: 1 1 0
+    flex-direction: column
+    align-items: center
+    text-align: center
+    position: relative
+    height: 100%
+    padding: 3rem 0 
+    background: variables.$bg-color
+    border-radius: variables.$container-border-radius
+    
+
+    .title
+        color: variables.$text-color-secondary
+        background-color: variables.$bg-color-secondary
+        border-radius: variables.$card-border-radius
+        padding: .8rem 1.2rem
+
+    .btn
+        @include mixins.btn
+        
+
+    
