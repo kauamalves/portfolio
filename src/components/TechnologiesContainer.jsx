@@ -15,9 +15,9 @@ const technologies = [
   { id: 'css', name: "CSS3", icon: <DiCss3 /> },
   { id: 'js', name: "JavaScript", icon: <DiJsBadge /> },
   { id: 'react', name: "React JS", icon: <DiReact /> },
+  { id: 'sass', name: "SASS", icon: <DiSass /> },
   { id: 'php', name: "PHP 8", icon: <DiPhp /> },
   { id: 'mysql', name: "MySQL", icon: <DiMysql /> },
-  { id: 'sass', name: "SASS", icon: <DiSass /> },
 ];
 
 function TechnologiesContainer() {
