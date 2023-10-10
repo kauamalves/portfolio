@@ -4,7 +4,7 @@ import AboutContainer from './AboutContainer'
 import TechnologiesContainer from './TechnologiesContainer'
 import ProjectsContainer from './ProjectsContainer'
 
-function MainContent(){
+function MainContent() {
   return (
     <main id='mainContent'>
       <AboutContainer />
