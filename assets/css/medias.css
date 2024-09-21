@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px) {
+    .me{
+        height: 50vh;
+    }
+
+    .aboutText{
+        width: 80%;
+    }
+
+    .projectContainer{
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .me{
+        height: 60vh;
+    }
+
+    .aboutText{
+        width: 80%;
+    }
+
+    .projectContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 projetos lado a lado */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .me{
+        height: 50vh;
+    }
+
+    .about {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .aboutText{
+        width: 80%;
+    }
+
+    .projectContainer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 2 projetos lado a lado */
+    }
+
+    .cards{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .card{
+        margin: 5px 0 0 0;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    nav{
+        display: none;
+    }
+
+    .aboutText{
+        width: 100%;
+    }
+
+    .cards{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .card{
+        margin: 5px 0 0 0;
+    }
+}
